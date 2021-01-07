@@ -52,8 +52,35 @@ p {
     font-weight: 500;
     font-style: normal;
     color: #ffe5e3;
+    font-size: 1rem;
 }
 
+/*index forside*/
+
+#splash_portfolio{
+    display: grid;
+    height: 600px;
+    width: 1240px;
+    background-size: cover;
+    background-position: 15% 10%;
+    grid-template-columns: 3fr 1fr;
+ }
+
+
+ #splash_portfolio .section_wrapper {
+     display: grid;
+     grid-template-columns: 4fr 0.5fr;
+     grid-column-gap: 20px;
+ }
+
+#splash_portfolio h1{
+    font-family: "misto";
+    font-size: 9.8rem;
+    text-align: left;
+}
+#splash_portfolio .col_narrow p{
+    text-align: center;
+}
 
 /*tema 2*/
 
@@ -79,6 +106,7 @@ p {
 
 #tema_2 p {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 
