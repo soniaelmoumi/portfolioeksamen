@@ -1,0 +1,63 @@
+/*alle sektioner*/
+
+body {
+    margin left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    background-color: #BAB0EC;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    font-size: 20px;
+    font-family: 'konstant grotesk';
+    color: #ffe5e3;
+    margin-left: 65vw;
+    margin-top: 10px;
+    word-spacing: 10px;
+
+}
+
+nav a {
+    text-decoration-line: none;
+    color: #ffe5e3;
+}
+
+h1 {
+    font-family: 'konstant grotesk';
+    font-size: 4rem;
+    color: #ffe5e3;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'konstant grotesk';
+    font-size: 2rem;
+    color: #ffe5e3;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+p {
+    font-family: degular-text, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffe5e3;
+}
+
+
+/*tema 2*/
+
+/*tema 3*/
+
+/*tema 4*/
+
+/*tema 5*/
