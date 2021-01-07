@@ -35,6 +35,7 @@ nav {
     /*    margin-left: 65vw;*/
     text-align: right;
     margin-top: 30px;
+    margin-bottom: 30px;
     word-spacing: 10px;
 
 }
@@ -100,6 +101,17 @@ p {
     text-align: center;
 }
 
+/*om mig*/
+
+#om_mig {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-column-gap: 20px;
+    max-height: 500px;
+}
+#om_mig .col_text h1{
+    text-align: left;
+}
 /*tema 2*/
 
 #tema_2 .section_wrapper {
