@@ -1,8 +1,8 @@
 /*alle sektioner*/
 
 body {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: auto;
     background-color: #BAB0EC;
 }
@@ -16,8 +16,9 @@ nav {
     font-size: 20px;
     font-family: 'konstant grotesk';
     color: #ffe5e3;
-    margin-left: 65vw;
-    margin-top: 10px;
+/*    margin-left: 65vw;*/
+    text-align: right;
+    margin-top: 30px;
     word-spacing: 10px;
 
 }
@@ -111,7 +112,7 @@ p {
 }
 
 /*Pitch*/
-#tema_3 .row_3{
+#tema_3 .row_3 {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     column-gap: 40px;
@@ -124,13 +125,36 @@ p {
 
 /*tema 4*/
 
-#tema_4 .billede_tekst p{
+#tema_4 .section_wrapper {
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column-gap: 10px;
+}
+
+#tema_4 .billede_tekst p {
     text-align: center;
 }
 
-#tema_4 .row{
+#tema_4 .row {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
+#tema_4 .col_wide img {
+    width: 800px;
+    height: 535px;
+}
+
 /*tema 5*/
+
+#tema_5 {
+    display: grid;
+    grid-row-gap: 40px;
+
+}
+
+#tema_5 .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
