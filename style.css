@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'mistoregular';
+    src: url('misto-webfont.woff2') format('woff2'),
+        url('misto-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'konstant_groteskregular';
+    src: url('konstantgrotesk-webfont.woff2') format('woff2'),
+        url('konstantgrotesk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*alle sektioner*/
 
 body {
@@ -16,7 +32,7 @@ nav {
     font-size: 20px;
     font-family: 'konstant grotesk';
     color: #ffe5e3;
-/*    margin-left: 65vw;*/
+    /*    margin-left: 65vw;*/
     text-align: right;
     margin-top: 30px;
     word-spacing: 10px;
@@ -57,32 +73,30 @@ p {
 
 /*index forside*/
 
-body{
-    background-image: url(filer/gradient_splash.png);
-    background-size: cover;
-}
-#splash_portfolio{
+
+#splash_portfolio {
     display: grid;
     height: 600px;
     width: 1240px;
     background-size: cover;
     background-position: 15% 10%;
     grid-template-columns: 3fr 1fr;
- }
+}
 
 
- #splash_portfolio .section_wrapper {
-     display: grid;
-     grid-template-columns: 4fr 0.5fr;
-     grid-column-gap: 20px;
- }
+#splash_portfolio .section_wrapper {
+    display: grid;
+    grid-template-columns: 4fr 0.5fr;
+    grid-column-gap: 20px;
+}
 
-#splash_portfolio h1{
+#splash_portfolio h1 {
     font-family: "misto";
     font-size: 9.8rem;
     text-align: left;
 }
-#splash_portfolio .col_narrow p{
+
+#splash_portfolio .col_narrow p {
     text-align: center;
 }
 
