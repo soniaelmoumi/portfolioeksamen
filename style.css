@@ -1,9 +1,9 @@
 /*alle sektioner*/
 
 body {
-    margin left: 10px;
-    margin-right: 10px;
-    padding: 0;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: auto;
     background-color: #BAB0EC;
 }
 
@@ -31,7 +31,7 @@ h1 {
     font-family: 'konstant grotesk';
     font-size: 4rem;
     color: #ffe5e3;
-    margin: 0;
+    margin-top: 50px;
     margin-bottom: 20px;
     padding: 0;
     text-align: center;
@@ -55,6 +55,30 @@ p {
 
 
 /*tema 2*/
+
+#tema_2 .section_wrapper{
+display: grid;
+grid-template-columns: 3fr 1fr;
+column-gap: 40px;
+}
+
+#tema_2 .col_wide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#tema_2 .col_narrow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tema_2 p{
+    text-align: center;
+}
+
 
 /*tema 3*/
 
