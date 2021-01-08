@@ -6,6 +6,7 @@
     font-style: normal;
 
 }
+
 @font-face {
     font-family: 'konstant_groteskregular';
     src: url('konstantgrotesk-webfont.woff2') format('woff2'),
@@ -32,6 +33,7 @@ nav {
     font-size: 20px;
     font-family: 'konstant grotesk';
     color: #ffe5e3;
+
     /*    margin-left: 65vw;*/
     text-align: right;
     margin-top: 30px;
@@ -43,11 +45,13 @@ nav {
 nav a {
     text-decoration-line: none;
     color: #ffe5e3;
+
 }
 
 h1 {
     font-family: 'konstant grotesk';
     font-size: 4rem;
+
     color: #ffe5e3;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -59,6 +63,7 @@ h2 {
     font-family: 'konstant grotesk';
     font-size: 2rem;
     color: #ffe5e3;
+
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
@@ -69,7 +74,18 @@ p {
     font-weight: 500;
     font-style: normal;
     color: #ffe5e3;
+
     font-size: 1rem;
+}
+
+/*footer*/
+#footer_about{
+    margin-top: 120px;
+}
+
+/*index footer*/
+#footer{
+margin-top: 30px;
 }
 
 /*index forside*/
@@ -109,9 +125,11 @@ p {
     grid-column-gap: 20px;
     max-height: 500px;
 }
-#om_mig .col_text h1{
+
+#om_mig .col_text h1 {
     text-align: left;
 }
+
 /*tema 2*/
 
 #tema_2 .section_wrapper {
