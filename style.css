@@ -17,7 +17,7 @@
 
 /*Desktop*/
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 600px) {
     /*alle sektioner*/
 
     body {
@@ -32,24 +32,57 @@
         height: auto;
     }
 
+    #menu {
+        margin-top: 30px;
+        margin-bottom: 30px;
+         word-spacing: 10px;
+        text-align: right;
+    }
+    #menu li{
+        display: inline-block;
+    }
+
+    #menu a{
+        font-size: 20px;
+        font-family: 'konstant grotesk';
+        text-align: right;
+        word-spacing: 10px;
+        text-decoration-line: none;
+        color: #ffe5e3;
+    }
+
+    #menuknap {
+        display: none;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-weight: 200;
+        margin-left: 5vw;
+    }
+
+    #menu{
+        list-style-type: none;
+    }
+/*
     nav {
         font-size: 20px;
         font-family: 'konstant grotesk';
         color: #ffe5e3;
 
-        /*    margin-left: 65vw;*/
+            margin-left: 65vw;
         text-align: right;
         margin-top: 30px;
         margin-bottom: 30px;
         word-spacing: 10px;
 
     }
+*/
 
+/*
     nav a {
         text-decoration-line: none;
         color: #ffe5e3;
 
     }
+*/
 
     h1 {
         font-family: 'konstant grotesk';
@@ -91,11 +124,6 @@
         margin-top: 30px;
     }
 
-    #splash_portfolio h1 {
-        font-family: "misto";
-        font-size: 9.8rem;
-        text-align: left;
-    }
 
 
     /*index forside*/
@@ -108,6 +136,13 @@
         background-position: 15% 10%;
         grid-template-columns: 3fr 1fr;
     }
+
+    #splash_portfolio h1 {
+        font-family: "misto";
+        font-size: 9.8rem;
+        text-align: left;
+    }
+
 
 
     #splash_portfolio .section_wrapper {
@@ -210,8 +245,12 @@
         grid-column-gap: 10px;
     }
 
+    #tema_4 .billede_tekst h2{
+        margin-top: 10px;
+    }
+
     #tema_4 .billede_tekst p {
-        text-align: center;
+        text-align: left;
     }
 
     #tema_4 .row {
@@ -242,6 +281,21 @@
 /*Mobile Version*/
 
 @media only screen and (max-width: 600px) {
+    .hidden {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    #menuknap {
+        display: inline-block;
+        font-size: 7vw;
+    }
+
+    #menu{
+        list-style-type: none;
+        transition: transform .3s;
+        transform-origin: top left;
+    }
 
     body {
         margin-left: 10px;
@@ -443,7 +497,7 @@
         margin-bottom: 20px;
     }
 
-    iframe{
+     #tema_3 iframe{
         align-content: center;
         width: 100%;
     }
