@@ -110,29 +110,34 @@
 
     /*index forside*/
 
+/*
     #splash_portfolio {
         display: grid;
         height: 600px;
         width: 1240px;
         background-size: cover;
         background-position: 15% 10%;
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }
+*/
 
     #splash_portfolio h1 {
         font-family: "misto";
-        font-size: 9.8rem;
+        font-size: 8.5rem;
         text-align: left;
     }
 
-    #splash_portfolio .section_wrapper {
+    #splash_portfolio {
         display: grid;
-        grid-template-columns: 4fr 0.5fr;
-        grid-column-gap: 20px;
+        grid-template-columns: 4fr 2fr;
+        grid-column-gap: 0px;
     }
 
     #splash_portfolio .col_narrow p {
-        text-align: center;
+        text-align: left;
+        margin-top: 348px;
+        font-size: 2rem;
+        margin-bottom: 0px;
     }
 
     /*om mig*/
@@ -363,6 +368,7 @@
         font-family: "misto";
         font-size: 5rem;
         text-align: left;
+        margin-top: 0;
     }
 
 
@@ -370,13 +376,9 @@
 
     #splash_portfolio {
         display: grid;
-        /*
-    height: 600px;
-    width: 1240px;
-*/
         background-size: cover;
         grid-template-columns: 1fr;
-        /*    max-width: 600px;*/
+
     }
 
 
@@ -384,11 +386,17 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 20px;
-        /*    max-width: 600px;*/
+
     }
 
     #splash_portfolio .col_narrow p {
         text-align: left;
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #splash_portfolio .col_narrow a{
+        font-size: 1.2rem;
     }
 
     /*om mig*/
@@ -397,7 +405,6 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-column-gap: 20px;
-        /*        max-height: 500px;*/
     }
 
 
@@ -529,5 +536,10 @@
     }
     #tema_5 h2{
         margin-top: 20px;
+    }
+
+    iframe{
+        align-content: center;
+        width: 100%;
     }
 }
