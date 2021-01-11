@@ -83,7 +83,7 @@
         margin-top: 50px;
         margin-bottom: 20px;
         padding: 0;
-        text-align: center;
+/*        text-align: center;*/
     }
 
     h2 {
@@ -101,6 +101,7 @@
         font-style: normal;
         color: #ffe5e3;
         font-size: 1rem;
+        line-height: 1.6;
     }
 
     /*footer*/
@@ -350,6 +351,7 @@
         font-style: normal;
         color: #ffe5e3;
         font-size: 1rem;
+        line-height: 1.6;
     }
 
     a{
