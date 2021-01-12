@@ -5,9 +5,7 @@
     body {
         margin-left: 100px;
         margin-right: 100px;
-/*        background-color: #f3eee8;*/
-                background-color: #E7C6C7;
-        /*        background-color: #BAB0EC; lys lilla */
+        background-color: #E7C6C7;
     }
 
     img {
@@ -140,8 +138,8 @@
     #om_mig .col_text h1 {
         text-align: left;
         font-style: italic;
-margin-top: 0;
-font-size: 6rem;
+        margin-top: 0;
+        font-size: 8rem;
     }
 
     /* portfolio heading titel */
@@ -323,7 +321,7 @@ font-size: 6rem;
     }
 
     h2 {
-         font-family: muli, sans-serif;
+        font-family: muli, sans-serif;
         font-weight: 500;
         font-style: normal;
         font-size: 2rem;
@@ -334,7 +332,7 @@ font-size: 6rem;
     }
 
     p {
-         font-family: muli, sans-serif;
+        font-family: muli, sans-serif;
         font-weight: 300;
         font-style: normal;
         color: black;
@@ -343,7 +341,7 @@ font-size: 6rem;
     }
 
     a {
-         font-family: 'Cormorant', serif;
+        font-family: 'Cormorant', serif;
         font-weight: 300;
         font-style: italic;
         /*
@@ -362,7 +360,7 @@ font-size: 6rem;
     }
 
     #splash_portfolio h1 {
-         font-family: 'Cormorant', serif;
+        font-family: 'Cormorant', serif;
         font-weight: 300;
         font-style: italic;
         font-size: 6rem;
