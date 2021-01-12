@@ -1,20 +1,3 @@
-@font-face {
-    font-family: 'mistoregular';
-    src: url('misto-webfont.woff2') format('woff2'),
-        url('misto-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'konstant_groteskregular';
-    src: url('konstantgrotesk-webfont.woff2') format('woff2'),
-        url('konstantgrotesk-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /*Desktop*/
 @media only screen and (min-width: 600px) {
     /*alle sektioner*/
@@ -22,7 +5,9 @@
     body {
         margin-left: 100px;
         margin-right: 100px;
-        background-color: #BAB0EC;
+        background-color: #f3eee8;
+        /*        background-color: #E7C6C7; lys rosa*/
+        /*        background-color: #BAB0EC; lys lilla */
     }
 
     img {
@@ -30,7 +15,7 @@
         height: auto;
     }
 
-/*
+    /*
     iframe {
         width: auto;
         height: auto;
@@ -38,10 +23,12 @@
 */
 
     a {
-       font-family: degular-text, sans-serif;
-        font-weight: 700;
+        font-family: 'Cormorant', serif;
+        font-weight: 300;
+        font-style: italic;
+
         font-size: 1.5rem;
-        color: #ffe5e3;
+        color: black;
     }
 
     #menu {
@@ -57,16 +44,20 @@
 
     #menu a {
         font-size: 20px;
-        font-family: 'konstant grotesk';
+        font-family: 'Cormorant', serif;
+        font-weight: 300;
+        font-style: normal;
         text-align: right;
         word-spacing: 10px;
         text-decoration-line: none;
-        color: #ffe5e3;
+        color: black;
     }
 
     #menuknap {
         display: none;
-        font-family: 'Helvetica Neue', sans-serif;
+        font-family: muli, sans-serif;
+        font-weight: 600;
+        font-style: normal;
         font-weight: 200;
         margin-left: 5vw;
     }
@@ -76,30 +67,34 @@
     }
 
     h1 {
-        font-family: 'konstant grotesk';
-        font-size: 4rem;
+        font-family: 'Cormorant', serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 6rem;
 
-        color: #ffe5e3;
+        color: black;
         margin-top: 50px;
         margin-bottom: 20px;
         padding: 0;
-/*        text-align: center;*/
+
     }
 
     h2 {
-        font-family: 'konstant grotesk';
+        font-family: 'Cormorant', serif;
+        font-weight: 300;
+        font-style: normal;
         font-size: 2rem;
-        color: #ffe5e3;
+        color: black;
         margin: 0;
         margin-bottom: 20px;
         padding: 0;
     }
 
     p {
-        font-family: degular-text, sans-serif;
-        font-weight: 500;
+        font-family: muli, sans-serif;
+        font-weight: 300;
         font-style: normal;
-        color: #ffe5e3;
+        color: black;
         font-size: 1rem;
         line-height: 1.6;
     }
@@ -116,20 +111,12 @@
 
     /*index forside*/
 
-/*
-    #splash_portfolio {
-        display: grid;
-        height: 600px;
-        width: 1240px;
-        background-size: cover;
-        background-position: 15% 10%;
-        grid-template-columns: 2fr 1fr;
-    }
-*/
-
     #splash_portfolio h1 {
-        font-family: "misto";
-        font-size: 8.5rem;
+        font-family: 'Cormorant', serif;
+        font-weight: 300;
+        font-style: italic;
+        color: black;
+        font-size: 9.5rem;
         text-align: left;
     }
 
@@ -140,8 +127,11 @@
     }
 
     #splash_portfolio .col_narrow p {
-        text-align: left;
-        margin-top: 348px;
+        font-family: muli, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: right;
+        margin-top: 382px;
         font-size: 2rem;
         margin-bottom: 0px;
     }
@@ -152,11 +142,17 @@
         display: grid;
         grid-template-columns: 3fr 2fr;
         grid-column-gap: 20px;
-        max-height: 500px;
     }
 
     #om_mig .col_text h1 {
         text-align: left;
+    }
+
+    /* portfolio heading titel */
+
+    #titel h1 {
+        text-align: center;
+        font-size: 9rem;
     }
 
     /*tema 2*/
@@ -192,9 +188,10 @@
         display: grid;
         grid-row-gap: 40px;
     }
+
     #tema_3 a {
         font-size: 1.5rem;
-        color: #ffe5e3;
+        color: black;
     }
 
     /*Ide*/
@@ -205,29 +202,15 @@
         column-gap: 40px;
     }
 
-    #tema_3 .row_1 img {
-/*
-        width: 400px;
-        height: 430px;
-*/
-    }
-
     /*Prototype*/
 
-#tema_3 .row_2 {
+    #tema_3 .row_2 {
         display: grid;
         grid-template-columns: 1.5fr 0.5fr;
         column-gap: 40px;
     }
 
-/*
-    #tema_3 .row_2 img{
-        width: 299px;
-        height: 500px;
-    }
-*/
-
-    #tema_3 .row_2 .col_wide{
+    #tema_3 .row_2 .col_wide {
         margin-right: 100px;
     }
 
@@ -236,13 +219,6 @@
         display: grid;
         grid-template-columns: 1fr 1.5fr;
         column-gap: 40px;
-    }
-
-    #tema_3 .col_wide img {
-/*
-        width: 425px;
-        height: 568px;
-*/
     }
 
     /*tema 4*/
@@ -268,12 +244,12 @@
 
     /*tema 5*/
 
-    #tema_5 .section_wrapper{
+    #tema_5 .section_wrapper {
         display: grid;
         grid-row-gap: 40px;
     }
 
-    #tema_5 h2{
+    #tema_5 h2 {
         padding-top: 20px;
     }
 }
@@ -300,7 +276,7 @@
     body {
         margin-left: 10px;
         margin-right: 10px;
-        background-color: #BAB0EC;
+        background-color: #f3eee8;
     }
 
     img {
@@ -310,8 +286,10 @@
 
     nav {
         font-size: 20px;
-        font-family: 'konstant grotesk';
-        color: #ffe5e3;
+        font-family: muli, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: black;
         /*    margin-left: 65vw;*/
         text-align: right;
         margin-top: 30px;
@@ -321,44 +299,61 @@
     }
 
     nav a {
+        font-family: 'Cormorant', serif;
+        font-weight: 300;
+        font-style: italic;
         text-decoration-line: none;
-        color: #ffe5e3;
+        color: black;
 
+    }
+
+    #titel h1 {
+        text-align: center;
+        font-size: 6rem;
     }
 
     h1 {
-        font-family: 'konstant grotesk';
+        font-family: 'Cormorant', serif;
+        font-weight: 700;
+        font-style: italic;
         font-size: 4rem;
-        color: #ffe5e3;
+        color: black;
         margin-top: 50px;
         margin-bottom: 20px;
         padding: 0;
-        text-align: center;
+        text-align: left;
     }
 
     h2 {
-        font-family: 'konstant grotesk';
+         font-family: 'Cormorant', serif;
+        font-weight: 300;
+        font-style: normal;
         font-size: 2rem;
-        color: #ffe5e3;
+        color: black;
         margin: 0;
         margin-bottom: 20px;
         padding: 0;
     }
 
     p {
-        font-family: degular-text, sans-serif;
-        font-weight: 500;
+         font-family: muli, sans-serif;
+        font-weight: 300;
         font-style: normal;
-        color: #ffe5e3;
+        color: black;
         font-size: 1rem;
         line-height: 1.6;
     }
 
-    a{
+    a {
+         font-family: 'Cormorant', serif;
+        font-weight: 300;
+        font-style: italic;
+        /*
        font-family: degular-text, sans-serif;
         font-weight: 700;
+*/
         font-size: 1.5rem;
-        color: #ffe5e3;
+        color: black;
     }
 
     /*footer*/
@@ -369,8 +364,10 @@
     }
 
     #splash_portfolio h1 {
-        font-family: "misto";
-        font-size: 5rem;
+         font-family: 'Cormorant', serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 6rem;
         text-align: left;
         margin-top: 0;
     }
@@ -399,7 +396,8 @@
         margin-top: 0;
         margin-bottom: 0;
     }
-    #splash_portfolio .col_narrow a{
+
+    #splash_portfolio .col_narrow a {
         font-size: 1.2rem;
     }
 
@@ -413,7 +411,7 @@
 
 
     #om_mig p {
-        text-align: center;
+        text-align: left;
     }
 
     #om_mig .col_billede {
@@ -422,7 +420,7 @@
 
     #om_mig .col_text h1 {
         text-align: center;
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     /*tema 2*/
@@ -460,24 +458,12 @@
 
     #tema_3 .section_wrapper {
         grid-template-columns: 1fr;
-/*        grid-auto-rows: 1fr;*/
         display: grid;
-/*
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-*/
         grid-row-gap: 40px;
     }
 
     /*Ide*/
     #tema_3 .row_1 {
-/*        display: grid;*/
-/*
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-*/
-/*        column-gap: 40px;*/
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -486,19 +472,13 @@
     #tema_3 h2 {
         margin-top: 10px;
     }
+
     /*Prototype*/
 
     #tema_3 .row_2 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-/*        display: grid;*/
-/*
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-        column-gap: 40px;
-*/
-
     }
 
     /*Pitch*/
@@ -506,11 +486,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-/*        display: grid;*/
-/*
-        grid-template-columns: 1fr;
-        column-gap: 40px;
-*/
     }
 
     /*tema 4*/
@@ -524,7 +499,7 @@
     }
 
     #tema_4 h1 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     #tema_4 .billede_tekst p {
@@ -544,11 +519,11 @@
 
     /*tema 5*/
 
- #tema_5 h2{
+    #tema_5 h2 {
         margin-top: 20px;
     }
 
-    #tema_5 .section_wrapper{
+    #tema_5 .section_wrapper {
         display: grid;
         grid-template-columns: 1fr;
         flex-direction: column;
@@ -559,4 +534,3 @@
 
 
 }
-
