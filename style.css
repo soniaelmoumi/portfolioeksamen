@@ -1,4 +1,4 @@
-/*Desktop*/
+/*Desktop Version*/
 @media only screen and (min-width: 600px) {
     /*alle sektioner*/
 
@@ -90,7 +90,7 @@
         line-height: 1.6;
     }
 
-    /*footer*/
+    /*footer about side*/
     #footer_about {
         margin-top: 120px;
     }
@@ -528,6 +528,4 @@
         grid-row-gap: 40px;
         grid-column-gap: 20px;
     }
-
-
 }
